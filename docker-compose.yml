@@ -56,4 +56,12 @@ services:
       - ./:/app
     ports:
       - "4060:4060"
+  wallet:
+    build: ./services/wallet
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4150:4150"
 
