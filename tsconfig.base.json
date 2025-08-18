@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@torque/shared/*": ["packages/shared/src/*"],
+      "@torque/ui/*": ["packages/ui/src/*"],
+      "@torque/config": ["packages/config/src/index.ts"],
+      "@torque/sdk": ["packages/sdk/src/index.ts"]
+    }
+  }
+}
+

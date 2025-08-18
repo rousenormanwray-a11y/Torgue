@@ -1,0 +1,59 @@
+version: "3.9"
+services:
+  web:
+    build: ./apps/web
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "3000:3000"
+  auth:
+    build: ./services/auth
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4010:4010"
+  crypto-escrow:
+    build: ./services/crypto-escrow
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4020:4020"
+  listings:
+    build: ./services/listings
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4030:4030"
+  fiat-escrow:
+    build: ./services/fiat-escrow
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4040:4040"
+  social:
+    build: ./services/social
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4050:4050"
+  analytics:
+    build: ./services/analytics
+    command: pnpm dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4060:4060"
+
