@@ -4,7 +4,7 @@
     { "src": "apps/web/package.json", "use": "@vercel/next" }
   ],
   "env": {
-    "NEXT_PUBLIC_SOCIAL_URL": "https://torque-social.onrender.com"
+    "NEXT_PUBLIC_SOCIAL_URL": "https://torgue.onrender.com"
   }
 }
 

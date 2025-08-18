@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 
 interface GroupPurchase {
   id: string;
@@ -13,6 +14,7 @@ interface GroupPurchase {
 }
 
 const app = express();
+app.use(cors({ origin: [/\.vercel\.app$/, /localhost:\d+$/], credentials: false }));
 app.use(express.json());
 
 // In-memory store for demo purposes
