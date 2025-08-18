@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: torque-social
+    env: node
+    plan: free
+    buildCommand: pnpm install && pnpm --filter @torque/social build
+    startCommand: pnpm --filter @torque/social dev
+    envVars:
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /health
+
