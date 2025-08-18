@@ -17,6 +17,10 @@ Nigeria-first viral marketplace with crypto/fiat escrow and social commerce.
 - See `DOCUMENTATION.md` for feature overview and team guide.
 - See `DEPLOYMENT.md` for deployment instructions (web/mobile/services).
 
+## Marketing & Copy
+- Landing page implemented at `apps/web/app/(marketing)/page.tsx` with optimized copy.
+- Group buying UI at `apps/web/app/group-buying/page.tsx` and service logic in `services/social`.
+
 ## Apps
 - Web (Next.js PWA)
 - Mobile (React Native + Expo) – placeholder
