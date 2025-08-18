@@ -1,0 +1,15 @@
+node_modules
+.turbo
+.next
+dist
+build
+.DS_Store
+.env*
+coverage
+pnpm-lock.yaml
+**/.expo
+**/.expo-shared
+**/android
+**/ios
+**/.cache
+

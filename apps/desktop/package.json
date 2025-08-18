@@ -1,0 +1,12 @@
+{
+  "name": "@torque/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('desktop shell placeholder')\"",
+    "build": "node -e \"console.log('desktop build placeholder')\"",
+    "typecheck": "node -e \"console.log('no typecheck')\"",
+    "lint": "node -e \"console.log('lint ok')\""
+  }
+}
+
