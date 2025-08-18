@@ -13,6 +13,10 @@ Nigeria-first viral marketplace with crypto/fiat escrow and social commerce.
 - Run dev: `pnpm dev`
 - Build: `pnpm build`
 
+## Documentation
+- See `DOCUMENTATION.md` for feature overview and team guide.
+- See `DEPLOYMENT.md` for deployment instructions (web/mobile/services).
+
 ## Apps
 - Web (Next.js PWA)
 - Mobile (React Native + Expo) – placeholder
